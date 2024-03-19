@@ -40,14 +40,14 @@ contract YourContract is VestingWallet {
 
 
 	
-	function withdraw() public onlyOwner() {
+	// function withdraw() public onlyOwner() {
 		
-		// Using console.log for debugging purposes
-        console.log("Owner: %s", owner());
+	// 	// Using console.log for debugging purposes
+    //     console.log("Owner: %s", owner());
 
 
-		// (bool success, ) = owner.call{ value: address(this).balance }("");
-		// require(success, "Failed to send Ether");
-	}
+	// 	// (bool success, ) = owner.call{ value: address(this).balance }("");
+	// 	// require(success, "Failed to send Ether");
+	// }
 
 }
